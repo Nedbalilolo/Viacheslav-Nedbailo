@@ -1,0 +1,50 @@
+# СТОП-ЛИСТ РУБРИКИ «Молоді Новини»
+
+База: «Інвентаризація випусків рубрики» (09.09.2026) + Editorial DNA v1.0 (10.11.2026). Оновлювати після кожного випуску (за погодженням Славіка).
+
+## Що вийшло на каналі після #12 (за скріном каналу, 10.11.2026)
+- Молоді Новини #12 «третя варіація Etsy, мита на товари, блокування магазинів 2026» — знято ~09.09, вийшло 22.09.2026 (~1 міс. тому).
+- «9 найсильніших гіпотез про Etsy — дані зі 100+ магазинів» (~1 міс.).
+- Андрій Чумаченко, інтерв'ю «від системи до грошей».
+- «Etsy Up 2026 — що змінилось і як цим користуватись» (~3 тиж., ~20.10).
+- «Etsy Trend Report 2026: сім трендів» осінь/зима (~2 тиж., ~27.10).
+- «Від маркетплейсу до власного сайту: система онлайн-продажів» (~7 днів, ~03.11).
+- Наступна зйомка новин: **12.11.2026** (#13). Вікно #13: 09.09 → 10.11.2026.
+- Рішення Славіка 10.11: візуальні тренди й Etsy Up у новинах не дублювати; технічні оновлення Etsy Славік додає сам за потреби.
+
+## 1.1 ЗАКРИТО (лише при принципово новому факті)
+**Etsy, фічі:** 20 фото в каруселі; per-country pricing; stable listing URLs і бренд-рефреш; новий Seller Tools UI; хутро-бан (з 11.08.2026); збій USPS label adjustment; Seller Trend Report S/S 2026 і F/W 2026.
+**Etsy, корпоративне:** продаж Reverb; продаж Depop eBay (подія); розчистка консолідованих цифр.
+**Shopify, дедлайни:** Scripts sunset 30.06.2026; Checkout Extensibility для non-Plus 26.08.2026; quick-hits квітень–травень 2026.
+**Регуляторика:** старт ЄС €3 мита з 01.07.2026 (факт); кінець EU de minimis €150; Etsy-правило 9 липня по США (DDP); Section 122 / 24 липня; закон №15111-д (5%, €2000); US Section 301; повне усунення US de minimis; обов'язковий Etsy DDP для US.
+**AI:** запуск ChatGPT Instant Checkout + ~4% fee; Whatnot State of Live Selling.
+**Звіти:** Etsy FY2025 + Q4 2025; Etsy Q1 2026; Shopify Q1 2026; Etsy Q2 2026 (5,7 млн продавців / 87 млн покупців / take rate ~25,9%); Etsy layoffs ~12%; Etsy Ad Groups як новина; AI-трафік Etsy <1%.
+**#12:** Marketing & SEO трафік + чек-лист Іри; третя варіація (ліміт 2 500 комбінацій); кольори Q4 FW26; Ad Groups (до 20 груп); «Built to Grow»; Etsy Up 24.09; мито/HS-код з 12.08 (15,51% → 36,36%); історія Рустама ($80k блок); мобільний застосунок 46–48%.
+**Etsy Up 2026 (відео 15.10):** Stats assistant (бета); Marketplace Insights (тест); Quick list form; платна персоналізація; Payment account; Shared Access; Regulatory Operating Fees з 22.06.2026; take rate Q2 25,9%.
+**Тренд-репорт FW26 (21.10):** Etsy Trend Report FW26; Deloitte/NRF/Adobe holiday forecasts; Shopify 81% AI-користувачів; Pinterest Hobbies; Behr; Design Awards 2025.
+**«$10k не обов'язковий бюджет» (22.10):** сайт дешевше на 5%, відгуки, Organization/sameAs, welcome/post-purchase.
+**Гіпотези з даних:** фото за конверсією; концентрація виторгу; ціна/конверсія.
+**Гостьові (логістика):** de minimis, DDP/DDU, тарифи Укрпошти, поріг ЄС €150, HS-код.
+
+## 1.2 ЖИВЕ (лише як 🔁 ОНОВЛЕННЯ з новим фактом)
+- Etsy take rate; квартальна статистика Etsy (Q3 2026 — вийшов 28.10, див. дайджест 2026-11-10).
+- Etsy Ads / Offsite Ads / дашборд каналів.
+- Marketplace Insights (вихід із тесту, доступ для UA).
+- Ad Groups: окремий бюджет на групу.
+- A/B-тести інтерфейсу лістингу; layoffs; AI-модерація, зняття, апеляції; Purchase Protection; Review Ratings.
+- ЄС: мито €3 + збори по країнах; EU handling fee (старт 01.11.2026).
+- Наслідки Section 301 і кінця de minimis; DDP як фактор ранжування; CAPE/IEEPA refund.
+- CBP Entry Type 13 для пошти (перенесено на 20.01.2027).
+- Payoneer (Nuvei, DAC7, комісії); тарифи Укрпошти/НП/Meest.
+- Частка AI-каналів у трафіку Etsy; AI Overviews / GEO; Shopify agentic / UCP.
+- EU PIDs/SKU/batch з 01.11.2026.
+- Etsy Design Awards 2026 (переможці), Pantone 2027 (грудень), BFCM 27–30.11.2026.
+
+## 1.3 ВИЧЕРПАНІ РАМКИ (не робити віссю епізоду)
+«landed cost росте з усіх боків» · «Etsy монетизується жорсткіше» · «комерція в AI, але <1%» · «диверсифікація на Shopify через Offsite Ads» · «заявлено X → на практиці Y» як хук (як метод — ок) · «зупинка падіння, а не вибух» · «не псуйте життя українцям» · «вузька ніша виграє / анти-Temu» · «Etsy — старт, а не дім» · «мито — не одна цифра, а дірка».
+
+## 1.4 ЧОГО В ІСТОРІЇ НЕМАЄ (свіжі кути — пріоритет)
+ЄС GPSR (відповідальна особа) · EPR/PPWR (Etsy збирає EPR-номери FR/DE/ES) · Digital Product Passport · UK окремо (£135, Royal Mail) · Pinterest/Google free listings як канал · TikTok Shop для UA · механіка Etsy Payments (резерви) · фулфілмент у США (3PL) як відповідь на кінець de minimis · Meta/Instagram checkout · НБУ/валютне регулювання для ФОП · звіти Shopify про категорії й топ-товари.
+
+## Беклог після #11 (не виходило)
+Listing Appeals + Policy Violations; EU Product Liability Directive (12.2026); EU withdrawal request; UK de minimis £135; Purchase Protection до $250; tariffs estimator + HS-підказки; Ads на рівні лістинга; Shopify Editions Summer '26; GEO deep-dive (GA4 «AI Assistant»); Meta location fees, Threads ads; AI для фото/відео.
