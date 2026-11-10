@@ -24,3 +24,9 @@
 | A03 Meta | вторинні блоги | 1 | ⚠️ 1/3 |
 
 Першими повідомили (кандидати в P1-підсилення): Value Added Resource (Etsy cyber-message, EU €2 для Etsy), PPC Land (Etsy фото-правило, Shopify AI ×3,3 — **немає в реєстрі → кандидат**).
+
+## 10.11.2026 (пізніше) — після ввімкнення Full network access
+Відкривається напряму: community.etsy.com, valueaddedresource.net, changelog.shopify.com, shopify.com/news, marketplacepulse.com, modernretail.co, molodybiz.com/blog, youtube.com (список відео), Reddit через RSS (www.reddit.com/r/<sub>/new/.rss).
+Блокують ботів (403): etsy.com (Seller Handbook), sec.gov, cbp.gov, ukrposhta.ua, reddit JSON / old.reddit (логін) → фолбек: WebSearch + VAR/EcommerceBytes [переказ].
+Telegram @EtsyBiznes (6 622 учасники) і @EtsyBizChat (7 345) — це групи-чати, публічного веб-перегляду історії немає → потрібен експорт (див. manual_review.md).
+YouTube-субтитри через yt-dlp — «Sign in to confirm you're not a bot» → субтитри дає Славік (YouTube Studio) у Drive.
