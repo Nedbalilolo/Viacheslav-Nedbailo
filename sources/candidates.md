@@ -30,3 +30,11 @@
 
 ## З Editorial DNA 4.3 (траплялись у чатах, немає в реєстрі)
 Boxwood Press, Parade (кольори) · Printway.io (вторинне, слабке) · USAFacts · Seller Events / Etsy Success (форум) · юрфірми Wiley, Ward and Smith, Greenberg Traurig, J.M. Rodgers, Lieberman PLLC · Dimerco, Trade Compliance Resource Hub, Tax Foundation · epravda.com.ua · MyDesigns.io · Stacked Marketer.
+
+## Дали новини у фінал #13, але їх немає в реєстрі (кандидати за правилом 14, рішення — Славік)
+- PPC Land · ppc.land · 1/2 · ІНЖ · першим дав Shopify AI ×3,3 і фото-правило Etsy · у фіналі #13: 2 (Shopify Q3; AI-фото)
+- Campaign / LBB / Shots (рекламна преса) · campaignlive.com, lbbonline.com, shots.net · 6 · ІНЖ · святкова реклама Etsy «Workshops» · у фіналі #13: 1
+- PayPal newsroom / Payments Dive · 7 · ОФ/ІНЖ · опитування про тривогу й BNPL · у фіналі #13: 1
+- Adweek · adweek.com · 6/7 · ІНЖ · Deloitte 16% про AI-покупки · у фіналі #13: 1 (уже був кандидатом)
+- Кабінети магазинів і команда МБ (внутрішнє) · — · 1/2 · дані каналу · Share & Save, Quick list, перейменування варіацій, Holiday checklist, Knowledge Base, Shop · у фіналі #13: 6 — пропоную внести в реєстр як окреме джерело «I01»
+- eRank Top Sellers (експорт командою) — ВІДХИЛЕНО Славіком 11.11.2026, варіанти — sources/options_top_shops_trends.md
