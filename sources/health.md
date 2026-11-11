@@ -1,6 +1,7 @@
 # Здоров'я джерел
 
 Формат: дата · id · доступ (відкрилось / заблоковано / логін / пейвол / через пошук) · тез у дайджесті · що пройшло гейт · примітка.
+Тут — лише доступ, шум і першість. Лічильник «дійшло до фіналу» — тільки в `sources/registry.md` (CLAUDE.md, 8Г). Записи 10.11 нижче — історія; актуальний стан — найновіший запис.
 
 ## 10.11.2026 — тест доступу (Етап 1) + дайджест #1
 Мережа хмарної сесії: прямий HTTP і WebFetch заблоковані для всіх зовнішніх сайтів (DNS не резолвиться / проксі 403). Працює лише WebSearch.
@@ -30,3 +31,10 @@
 Блокують ботів (403): etsy.com (Seller Handbook), sec.gov, cbp.gov, ukrposhta.ua, reddit JSON / old.reddit (логін) → фолбек: WebSearch + VAR/EcommerceBytes [переказ].
 Telegram @EtsyBiznes (6 622 учасники) і @EtsyBizChat (7 345) — це групи-чати, публічного веб-перегляду історії немає → потрібен експорт (див. manual_review.md).
 YouTube-субтитри через yt-dlp — «Sign in to confirm you're not a bot» → субтитри дає Славік (YouTube Studio) у Drive.
+
+## 11.11.2026 — перевірка доступів на старті циклу #14 (curl з браузерним User-Agent)
+Відкриваються напряму (200): E05 Etsy Community Announcements, C02 Etsy Community, E09 Etsy Trend Edit, EA01 EcommerceBytes, EA02 Value Added Resource, EA03 CindyLouWho2, EA04 Marketplace Pulse, EA05 Marmalead, EA06 eRank, EA07 Alura, EA08 EverBee, EA09 Koalanda (головна), EA11 Growing Your Craft, EA13 Tamebay, S01 Shopify Changelog, S03 Shopify News, S04 Shopify Dev Changelog, S05 Help Center, S06 Shopify Blog, S07 Shopify Engineering, SA01 Shopifreaks, M01 Modern Retail, M02 Digital Commerce 360, M03 Retail Dive, M04 Supply Chain Dive, M05 Practical Ecommerce, M07 PYMNTS, M08 TechCrunch, M13 Digiday, N01 PPC Land, N04 Adweek, R02 Federal Register, R03 White House, R07 EC Taxation & Customs, R09 gov.uk, R11 Avalara, R12 Zonos, U03 Meest, U05 Western Bid, U07 Payoneer newsroom, U10 Верховна Рада, U12 buh.ua, U13 Дія.Бізнес, U15 Forbes.ua, U16 Інтерфакс-Україна, T01 Pantone, T04 Pinterest Business, T09 Google Trends RSS (лише загальні теми дня), A01 Google Ads & Commerce Blog, A02 Merchant Center Help, A12 Baymard, G01 Google Search Central, G03 Search Engine Journal, G04 Ahrefs, AI02 Anthropic, AI01 OpenAI (лише RSS).
+Блокують (403/401): E01 etsy.com, V02 Etsy API без ключа (очікувано), AI01 openai.com (сторінка), K01 Amazon IR, K02 eBay IR, G02 Search Engine Land (і feed), M09 CNBC (і RSS), M10 Reuters (401), M15 eMarketer, R05 CPSC, R08 Council of the EU, R10 Royal Mail, T05 Faire, T08 Trend Hunter, U01 Укрпошта, AP News, OECD → через пошук [переказ].
+Не відповіли / дивне: T11 Adobe DEI (таймаут двічі), R06 ftc.gov (404 на головній), Koalanda статистика (таймаут).
+C01 Reddit RSS: 200 з паузою 3–5 с, 429 при частих запитах; пошук через RSS — forbidden.
+Drive «Молоді Новини — бот»: папки Telegram і Субтитри порожні.

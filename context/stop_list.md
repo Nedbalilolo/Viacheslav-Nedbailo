@@ -46,8 +46,8 @@
 ## 1.4 ЧОГО В ІСТОРІЇ НЕМАЄ (свіжі кути — пріоритет)
 ЄС GPSR (відповідальна особа) · EPR/PPWR (Etsy збирає EPR-номери FR/DE/ES) · Digital Product Passport · UK окремо (£135, Royal Mail) · Pinterest/Google free listings як канал · TikTok Shop для UA · механіка Etsy Payments (резерви) · фулфілмент у США (3PL) як відповідь на кінець de minimis · Meta/Instagram checkout · НБУ/валютне регулювання для ФОП · звіти Shopify про категорії й топ-товари.
 
-## Беклог після #11 (не виходило)
-Listing Appeals + Policy Violations; EU Product Liability Directive (12.2026); EU withdrawal request; UK de minimis £135; Purchase Protection до $250; tariffs estimator + HS-підказки; Ads на рівні лістинга; Shopify Editions Summer '26; GEO deep-dive (GA4 «AI Assistant»); Meta location fees, Threads ads; AI для фото/відео.
+## Беклог після #11
+Перенесено в `context/backlog.md` (11.11.2026).
 
 ## Вийшло в #13 (зйомка 12.11.2026) — статус ЗАКРИТО / ЖИВЕ на підтвердження Славіка
 Сценарій: scenarios/2026-11-12_MN13_FINAL_Slavik.md
