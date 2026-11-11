@@ -48,3 +48,15 @@
 
 ## Беклог після #11 (не виходило)
 Listing Appeals + Policy Violations; EU Product Liability Directive (12.2026); EU withdrawal request; UK de minimis £135; Purchase Protection до $250; tariffs estimator + HS-підказки; Ads на рівні лістинга; Shopify Editions Summer '26; GEO deep-dive (GA4 «AI Assistant»); Meta location fees, Threads ads; AI для фото/відео.
+
+## Вийшло в #13 (зйомка 12.11.2026) — статус ЗАКРИТО / ЖИВЕ на підтвердження Славіка
+Сценарій: scenarios/2026-11-12_MN13_FINAL_Slavik.md
+- Рамка ринку: онлайн США сезон 2021–2026, Etsy Q3 2021–2026 + маркетинг 2021–2025, Shopify Q3 2021–2026 + AI ×2,6/×3,3, eBay Q3 → пропоную ЗАКРИТО (оновлення — з наступними квартальними звітами)
+- Share & Save 6,5% до 04.01.2027 → ЗАКРИТО
+- AI-фото: «сире» фото, детектор «Uses AI», метадані C2PA, removeailabel; апеляції 6 міс; хвиля off-platform → ЖИВЕ (чекаємо «суворе застосування» з 2027)
+- Святкова реклама Etsy «Workshops» / «Ornaments» → ЗАКРИТО
+- Etsy Ads вмикаються самі → ЖИВЕ
+- Shopify Agentic: Knowledge Base, Catalog, Shop/Shop Pay умови, LLC → ЖИВЕ (окреме відео в планах)
+- Покупець: тривога + BNPL + AI 13–34% → ЗАКРИТО
+- Боти / card testing → ЖИВЕ
+- Коротко: Quick list, перейменування варіацій, Holiday checklist, Cyber Specials, «Etsy порадила спамити», Pinterest/TikTok, CPM +13% → ЗАКРИТО
