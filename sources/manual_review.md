@@ -14,3 +14,9 @@ r/Etsy, r/EtsySellers, r/shopify, r/ecommerce — Славік не читає; 
 
 ## Логін / пейвол
 eRank Top Sellers · Etsy Community (частина гілок) · FB-групи · WGSN · Glimpse · Bloomberg.
+
+## Оновлено 11.11.2026 (рішення Славіка)
+- Telegram: експорт робить Славік щопонеділка → Drive «Молоді Новини — бот / Telegram» (https://drive.google.com/drive/folders/1S5NLIWNMaB-sAOJYahSJ6x3GOLpmi2HZ). Інструкція — sources/access_setup.md.
+- Субтитри YouTube → Drive «Молоді Новини — бот / Субтитри» (https://drive.google.com/drive/folders/1TLnrNOfdGb6c3DKX85rGBHSzgeciGt22).
+- Trend Hunter: ручний перегляд Славіком раз на квартал; бот нагадує в лютому, травні, серпні, листопаді.
+- Reddit: постійне джерело через RSS, не прибирати.
