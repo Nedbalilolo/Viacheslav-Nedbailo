@@ -7,12 +7,19 @@
 У фіналі: скільки новин із джерела дійшло до фінального сценарію; оновлюється після кожного випуску. Зміни статусу — лише після «так» Славіка.
 
 
-## ВЕРТИКАЛІ — СТАН ПОКРИТТЯ (CLAUDE.md, розділ 5б; станом на 11.11.2026)
-1. Тренди й ключові слова, що ростуть — **НЕ ЗАКРИТО.** Google Trends (T09): сторінка запитів 429, лише точкові перевірки через пошук. Keyword Planner (V01) — не підключено. Etsy Marketplace Insights — лише в кабінеті.
-2. Глобальні події, що впливають на e-com і маркетинг — **ЧАСТКОВО.** Є Adobe (T11), Modern Retail (M01), Digital Commerce 360 (M02), регулятори (R01–R10); Reuters, CNBC, Bloomberg (M09–M11) — доступ не перевірено, системно не читаються.
-3. Топ-магазини Shopify — **НЕ ЗАКРИТО.** Жодного джерела; Shopify не публікує рейтингів.
-4. Топ-магазини Etsy та інших маркетплейсів — **НЕ ЗАКРИТО.** Etsy Open API (V02) — чекає реєстрації застосунку Славіком; Koalanda (EA09) — оцінки третьої сторони; Marketplace Pulse (EA04) — точково.
-5. Категорії, що стрімко ростуть — **ЧАСТКОВО.** Квартальні звіти Etsy, eBay, Amazon (E04, K01, K02), Adobe (T11), Shopify Blog (S06) — раз на квартал чи рідше, не щомісяця.
+## ВЕРТИКАЛІ — СТАН ПОКРИТТЯ (CLAUDE.md, розділ 5б; 11 вертикалей; станом на 12.11.2026)
+Основа — перевірка живими запитами 12.11.2026: `research_notes/2026-11-12_sources_check.md`.
+1. Макро-рамка (США, UK, ЄС + топ-3 ЄС, Австралія, НЗ) — **ЧАСТКОВО.** США, UK, ЄС — офіційне першоджерело працює (P01–P03). Топ-3 ЄС — через Eurostat. Австралія й НЗ — лише карткові витрати, частки онлайну немає (P04, P05).
+2. Глобальні події — **ЧАСТКОВО.** Federal Register API/RSS (P06), юрфірми (P07, P08), українські медіа (P09, P10); CBP і Укрпошта — лише через пошук.
+3. Поведінка покупців — **ЧАСТКОВО.** McKinsey RSS (P11) + консалтинг (P12); глибокі трендові бази — платні.
+4. Маркетинг і технології — **ЗАКРИТО.** RSS Google Search Central, SER, Google Ads, Meta, OpenAI, Shopify Dev Changelog (P13–P16, A01, G01, AI01, S04).
+5. Візуальні тренди — **ЧАСТКОВО, ВРУЧНУ.** Pantone, Pinterest Predicts, Etsy/Shutterstock/Adobe — раз на рік (P17); у дайджест не йдуть (правило 12).
+6. Ключові слова й попит — **НЕ ЗАКРИТО.** Google Trends — 429; Trends API — alpha за заявкою; Etsy API і Keyword Planner — не підключено.
+7. Категорії, що ростуть — **ЧАСТКОВО.** Квартальні звіти Etsy/Shopify (P18, P19), Census/ONS; щомісячного трекера немає до Etsy API (V02).
+8. Топ-магазини та їхнє просування — **ЧАСТКОВО.** RSS магазинів Etsy (P20) працює; продажі магазинів — лише через Etsy API (V02); рекламні бібліотеки — вручну.
+9. Оновлення платформ — **ЗАКРИТО.** Shopify Changelog RSS (S01), Etsy Community (E05), специфікація Etsy API (P21), eBay Seller Updates (P22).
+10. Топ-блогери й експерти — **ЧАСТКОВО.** Механізм є: YouTube RSS працює (P23), блоги з RSS; зміст відео — після Gemini key (P24); імена — чекають Славіка.
+11. Експорт з України — **ЧАСТКОВО.** Нова пошта, Shopify Payments, e-Residency (P25–P27); Укрпошта — лише через пошук і контакт.
 
 ## Етсі — офіційні
 - E01 · Etsy Seller Handbook (+Site Updates) · etsy.com/seller-handbook · 1 · ОФ · P1 · статус: активне · доступ: через пошук (сайт блокує ботів) · у фіналі: 1 (#13: AI-фото)
@@ -190,3 +197,53 @@
 ## На випробуванні (вертикалі 1 і 4; не впроваджено до рішення Славіка)
 - V01 · Google Ads Keyword Planner (через акаунт Славіка) · ads.google.com · вертикаль 1 · ОФ · P2 · статус: на випробуванні · доступ: не підключено — умови в sources/access_setup.md · у фіналі: 0
 - V02 · Etsy Open API v3 · openapi.etsy.com · вертикаль 4 · ОФ · P2 · статус: на випробуванні · доступ: потрібен ключ застосунку (Славік реєструє) · у фіналі: 0
+
+## Перевірено 12.11.2026 (дослідження джерел; висновки — research_notes/2026-11-12_sources_check.md)
+Нові рядки. Статус «на випробуванні» = висновок ПІДКЛЮЧАЮ або НА ВИПРОБУВАННІ; «ручний перегляд» = ВРУЧНУ. Наявні рядки реєстру вище не змінено — розбіжності доступу перелічено в кінці розділу.
+- P01 · US Census, Quarterly Retail E-Commerce · census.gov/retail/ecommerce.html · верт. 1/7 · ОФ · P3 (щокварталу) · статус: на випробуванні · доступ: curl напряму · у фіналі: 0
+- P02 · ONS Retail sales GB (бюлетень + датасет internet sales, ряд J4MC) · ons.gov.uk · верт. 1/7 · ОФ · P3 (щомісяця) · статус: на випробуванні · доступ: curl напряму · у фіналі: 0
+- P03 · Eurostat, E-commerce statistics for individuals (+ API isoc_ec_ibuy) · ec.europa.eu/eurostat · верт. 1/3 · ОФ · P3 (раз на рік, лютий) · статус: на випробуванні · доступ: curl напряму, API без ключа · у фіналі: 0
+- P04 · ABS Monthly Household Spending Indicator · abs.gov.au · верт. 1 · ОФ (інша методологія) · P3 · статус: на випробуванні · доступ: curl напряму · у фіналі: 0
+- P05 · Stats NZ Electronic card transactions · stats.govt.nz · верт. 1 · ОФ (інша методологія) · P3 · статус: на випробуванні · доступ: curl напряму, xlsx · у фіналі: 0
+- P06 · Federal Register — API і RSS документів CBP · federalregister.gov/api/v1 · верт. 2 · ОФ · P1 · статус: на випробуванні · доступ: API і RSS без ключа · у фіналі: 0
+- P07 · Thompson Hine SmarTrade · thompsonhinesmartrade.com/feed · верт. 2 · ІНЖ · P2 · статус: на випробуванні · доступ: RSS · у фіналі: 0
+- P08 · KPMG TaxNewsFlash · kpmg.com/us/en/taxnewsflash.html · верт. 2 · ІНЖ · P3 · статус: на випробуванні · доступ: curl напряму · у фіналі: 0
+- P09 · AIN.ua · ain.ua/feed · верт. 2/11 · ІНЖ · P2 · статус: на випробуванні · доступ: RSS · у фіналі: 0
+- P10 · Mind.ua · s.mind.ua/rss/ua/all.xml · верт. 2/11 · ІНЖ · P2 · статус: на випробуванні · доступ: RSS (незвичне кодування) · у фіналі: 0
+- P11 · McKinsey Insights · mckinsey.com/insights/rss · верт. 3 · ІНЖ · P2 · статус: на випробуванні · доступ: RSS · у фіналі: 0
+- P12 · Deloitte Insights, Bain, Kantar, NielsenIQ, Circana · — · верт. 3 · ІНЖ · P3 (раз на місяць) · статус: на випробуванні · доступ: curl напряму (сторінки) · у фіналі: 0
+- P13 · Search Engine Roundtable · seroundtable.com/index.rdf · верт. 4 · ІНЖ · P2 · статус: на випробуванні · доступ: RSS · у фіналі: 0
+- P14 · Meta Newsroom · about.fb.com/feed · верт. 4 · ОФ · P2 · статус: на випробуванні · доступ: RSS · у фіналі: 0
+- P15 · TikTok Newsroom · newsroom.tiktok.com/en-us · верт. 4 · ОФ · P3 · статус: на випробуванні · доступ: curl напряму · у фіналі: 0
+- P16 · Google Search Central Blog RSS · developers.google.com/search/blog/feed.xml · верт. 4 · ОФ · P1 · статус: на випробуванні · доступ: RSS (доповнює G01) · у фіналі: 0
+- P17 · Річні звіти візуальних трендів: Shutterstock, Adobe Stock (+ Pantone T01, Pinterest Predicts T04, Etsy Trend Report E08) · — · верт. 5 · ОФ · P3 (грудень) · статус: ручний перегляд · доступ: Shutterstock і Adobe 403 → через пошук · у фіналі: 0
+- P18 · Etsy IR — прес-релізи RSS · investors.etsy.com/news-events/press-releases/rss · верт. 7 · ОФ · P1 у звітні тижні · статус: на випробуванні · доступ: RSS · у фіналі: 0
+- P19 · Shopify IR + Shopify News · shopify.com/investors · верт. 7 · ОФ · P1 у звітні тижні · статус: на випробуванні · доступ: curl напряму · у фіналі: 0
+- P20 · RSS магазинів Etsy (за списком Славіка) · etsy.com/shop/НАЗВА/rss · верт. 8 · ОФ · P2 · статус: на випробуванні · доступ: RSS (10 останніх лістингів), чекає списку магазинів · у фіналі: 0
+- P21 · Специфікація Etsy Open API (порівняння щотижня) · etsy.com/openapi/generated/oas/3.0.0.json · верт. 9 · ОФ · P3 · статус: на випробуванні · доступ: curl напряму · у фіналі: 0
+- P22 · eBay Seller Updates + Community Announcements · ebay.com/sellercenter/resources/seller-updates · верт. 9 · ОФ · P2 · статус: на випробуванні · доступ: curl напряму · у фіналі: 0
+- P23 · YouTube RSS каналів (список нових відео; блогери — після імен від Славіка) · youtube.com/feeds/videos.xml · верт. 10 · — · P2 · статус: на випробуванні · доступ: RSS · у фіналі: 0
+- P24 · Gemini API — зміст публічних YouTube-відео · ai.google.dev · верт. 10 · ОФ · P2 · статус: на випробуванні · доступ: потрібен ключ (Славік) · у фіналі: 0
+- P25 · Нова пошта / Nova Poshta Global · novaposhta.ua, novaposhtaglobal.ua · верт. 11 · ОФ · P2 · статус: на випробуванні · доступ: curl напряму · у фіналі: 0
+- P26 · Shopify Payments — supported countries · help.shopify.com · верт. 11 · ОФ · P3 · статус: на випробуванні · доступ: curl напряму (буває 403 «Verifying your connection», повтор допомагає) · у фіналі: 0
+- P27 · e-Residency Естонії · e-resident.gov.ee · верт. 11 · ОФ · P3 · статус: на випробуванні · доступ: curl напряму (FAQ — 403) · у фіналі: 0
+- P28 · Google Trends API alpha · developers.google.com/search/apis/trends · верт. 6 · ОФ · P2 · статус: на випробуванні · доступ: потрібна заявка й схвалення Google · у фіналі: 0
+- P29 · Shopify /products.json окремих магазинів · <магазин>/products.json · верт. 8 · неофіційно · P3 · статус: на випробуванні · доступ: залежить від магазину (Allbirds 200, Gymshark 403) · у фіналі: 0
+- P30 · Блоги з RSS: Seth Godin, Simon Willison, One Useful Thing (Mollick) · — · верт. 10 · ІНЖ · P3 · статус: на випробуванні · доступ: RSS · у фіналі: 0
+- P31 · CBP CSMS (бюлетені митниці) · content.govdelivery.com/accounts/USDHSCBP · верт. 2 · ОФ · P2 · статус: ручний перегляд · доступ: окремі бюлетені відкриваються, стрічки немає (406) · у фіналі: 0
+- P32 · Економічна правда · epravda.com.ua · верт. 2/11 · ІНЖ · P3 · статус: ручний перегляд · доступ: 403 → через пошук · у фіналі: 0
+- P33 · BCG, PwC Voice of the Consumer · — · верт. 3 · ІНЖ · P3 · статус: ручний перегляд · доступ: 403 → через пошук · у фіналі: 0
+- P34 · Amazon Best Sellers / Movers & Shakers · amazon.com/Best-Sellers/zgbs · верт. 7 · ОФ · P3 (раз на місяць) · статус: ручний перегляд · доступ: технічно 200, але умови Amazon проти роботів → очима · у фіналі: 0
+- P35 · Meta Ad Library, Google Ads Transparency Center, TikTok Creative Center · — · верт. 8 · ОФ · P3 · статус: ручний перегляд · доступ: 403 / 429 / рендер скриптом · у фіналі: 0
+- P36 · Amazon Seller Central News · sellercentral.amazon.com · верт. 9 · ОФ · P3 · статус: ручний перегляд · доступ: потрібен логін · у фіналі: 0
+- P37 · X API (pay-per-use) · docs.x.com · верт. 10 · ОФ · P3 · статус: ручний перегляд · доступ: платно, поки без акаунтів для стеження · у фіналі: 0
+- P38 · Instagram, TikTok (акаунти блогерів) · — · верт. 10 · — · P3 · статус: ручний перегляд · доступ: лише вручну · у фіналі: 0
+
+Розбіжності з наявними рядками (не змінював, чекає «так» Славіка):
+- E03 Etsy IR: записано «блокує ботів» — 12.11 головна і RSS відкриваються (200).
+- S08 Shopify IR: записано «блокує ботів» — 12.11 відкривається (200).
+- S04 Shopify Developer Changelog: «не перевірено» — RSS працює.
+- U01 Укрпошта: «не перевірено» — 403 (e-export і тарифи).
+- U02 Нова Пошта: «не перевірено» — сайти працюють (див. P25).
+- G01, A01: «через пошук» / «не перевірено» — RSS працюють.
+- V02 Etsy Open API: потрібен саме Personal App (Seller App обмежений своїм магазином); ключ — keystring:shared_secret.
