@@ -50,7 +50,7 @@
 - EA11 · Growing Your Craft · growingyourcraft.com · 1 · ІНЖ · P3 · статус: активне · доступ: не перевірено · у фіналі: 0
 - EA12 · EcomCrew · ecomcrew.com · 1 · ІНЖ · P3 · статус: активне · доступ: через пошук · у фіналі: 0
 - EA13 · Tamebay · tamebay.com · 1 · ІНЖ · P3 · статус: активне · доступ: не перевірено · у фіналі: 0
-- EA14 · Dylan Jahraus · — · 1 · ІНЖ · P3 · статус: активне · доступ: не перевірено · у фіналі: 0
+- EA14 · Dylan Jahraus · — · 1 · ІНЖ · P3 · статус: активне · доступ: через Y06 (YouTube RSS) · у фіналі: 0
 
 ## Shopify — офіційні
 - S01 · Shopify Changelog · changelog.shopify.com · 2 · ОФ · P1 · статус: активне · доступ: curl напряму · у фіналі: 0
@@ -138,7 +138,7 @@
 - T12 · Deloitte, NRF, Salesforce, McKinsey, Mintel, NielsenIQ, DHL · — · 7/10 · ІНЖ · P3 · статус: активне · доступ: не перевірено · у фіналі: 0
 
 ## Платний трафік
-- A01 · Google Ads Help + Ads & Commerce Blog · blog.google · 4 · ОФ · P2 · статус: активне · доступ: не перевірено · у фіналі: 0
+- A01 · Google Ads Help + Ads & Commerce Blog · blog.google · 4 · ОФ · P2 · статус: активне · доступ: RSS blog.google/products/ads-commerce/rss/ (перевірено 12.11.2026) · у фіналі: 0
 - A02 · Google Merchant Center Help · support.google.com/merchants · 3/4 · ОФ · P2 · статус: активне · доступ: не перевірено · у фіналі: 0
 - A03 · Meta for Business / Help Center · facebook.com/business · 4 · ОФ · P2 · статус: активне · доступ: не перевірено · у фіналі: 0
 - A04 · TikTok for Business / Seller Center · — · 4 · ОФ · P2 · статус: активне · доступ: не перевірено · у фіналі: 0
@@ -229,7 +229,7 @@
 - P27 · e-Residency Естонії · e-resident.gov.ee · верт. 11 · ОФ · P3 · статус: на випробуванні · доступ: curl напряму (FAQ — 403) · у фіналі: 0
 - P28 · Google Trends API alpha · developers.google.com/search/apis/trends · верт. 6 · ОФ · P2 · статус: на випробуванні · доступ: потрібна заявка й схвалення Google · у фіналі: 0
 - P29 · Shopify /products.json окремих магазинів · <магазин>/products.json · верт. 8 · неофіційно · P3 · статус: на випробуванні · доступ: залежить від магазину (Allbirds 200, Gymshark 403) · у фіналі: 0
-- P30 · Блоги з RSS: Seth Godin, Simon Willison, One Useful Thing (Mollick) · — · верт. 10 · ІНЖ · P3 · статус: на випробуванні · доступ: RSS · у фіналі: 0
+- P30 · Блоги з RSS: Simon Willison, One Useful Thing (Mollick) (Seth Godin — див. Y04) · — · верт. 10 · ІНЖ · P3 · статус: на випробуванні · доступ: RSS · у фіналі: 0
 - P31 · CBP CSMS (бюлетені митниці) · content.govdelivery.com/accounts/USDHSCBP · верт. 2 · ОФ · P2 · статус: ручний перегляд · доступ: окремі бюлетені відкриваються, стрічки немає (406) · у фіналі: 0
 - P32 · Економічна правда · epravda.com.ua · верт. 2/11 · ІНЖ · P3 · статус: ручний перегляд · доступ: 403 → через пошук · у фіналі: 0
 - P33 · BCG, PwC Voice of the Consumer · — · верт. 3 · ІНЖ · P3 · статус: ручний перегляд · доступ: 403 → через пошук · у фіналі: 0
@@ -241,7 +241,7 @@
 
 Розбіжності з наявними рядками:
 - E03, S08, S04, U01, U02 — виправлено 12.11.2026 («так» Славіка).
-- G01, A01: «через пошук» / «не перевірено» — RSS працюють (див. P16; A01 не змінено, на рішення).
+- A01 — виправлено 12.11.2026 («так» Славіка). G01: «через пошук» — RSS працює, див. P16.
 - V02 Etsy Open API: потрібен саме Personal App (Seller App обмежений своїм магазином); ключ — keystring:shared_secret.
 
 ## Вертикаль 10 — YouTube-канали (рішення Славіка 12.11.2026; доступ: RSS youtube.com/feeds/videos.xml?channel_id=…, перевірено 12.11.2026, усі 200 і по 15 відео)
