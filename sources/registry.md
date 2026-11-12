@@ -24,7 +24,7 @@
 ## Етсі — офіційні
 - E01 · Etsy Seller Handbook (+Site Updates) · etsy.com/seller-handbook · 1 · ОФ · P1 · статус: активне · доступ: через пошук (сайт блокує ботів) · у фіналі: 1 (#13: AI-фото)
 - E02 · Etsy News · etsy.com/news · 1 · ОФ · P2 · статус: активне · доступ: через пошук · у фіналі: 0
-- E03 · Etsy Investor Relations · investors.etsy.com · 1 · ОФ · P1 у звітні тижні / P3 · статус: активне · доступ: через пошук (сайт блокує ботів) · у фіналі: 1 (#13: Etsy Q3)
+- E03 · Etsy Investor Relations · investors.etsy.com · 1 · ОФ · P1 у звітні тижні / P3 · статус: активне · доступ: curl напряму + RSS investors.etsy.com/news-events/press-releases/rss (перевірено 12.11.2026) · у фіналі: 1 (#13: Etsy Q3)
 - E04 · SEC EDGAR (Etsy 10-Q/10-K/8-K) · sec.gov · 1 · ОФ · P3/звітні тижні · статус: активне · доступ: через пошук (сайт блокує ботів) · у фіналі: 3 (#13: Etsy Q3; маркетинг Etsy; 3 сигнали звіту)
 - E05 · Etsy Community Announcements · community.etsy.com/forum/announcements-290 · 1 · ОФ · P1 · статус: активне · доступ: curl напряму · у фіналі: 1 (#13: апеляції)
 - E06 · Etsy Help Center (Fees, House Rules, Creativity Standards) · help.etsy.com · 1 · ОФ · P2 · статус: активне · доступ: через пошук (сайт блокує ботів) · у фіналі: 1 (#13: Cyber Specials)
@@ -56,11 +56,11 @@
 - S01 · Shopify Changelog · changelog.shopify.com · 2 · ОФ · P1 · статус: активне · доступ: curl напряму · у фіналі: 0
 - S02 · Shopify Editions · shopify.com/editions · 2 · ОФ · P1 (січень/червень/жовтень) · статус: активне · доступ: через пошук · у фіналі: 0
 - S03 · Shopify Newsroom · shopify.com/news · 2 · ОФ · P1 · статус: активне · доступ: curl напряму · у фіналі: 1 (#13: Agentic)
-- S04 · Shopify Developer Changelog · shopify.dev/changelog · 2 · ОФ · P2 · статус: активне · доступ: не перевірено · у фіналі: 0
+- S04 · Shopify Developer Changelog · shopify.dev/changelog · 2 · ОФ · P2 · статус: активне · доступ: RSS shopify.dev/changelog/feed.xml; тег Action Required — окремо сторінкою ?tags=action-required (перевірено 12.11.2026) · у фіналі: 0
 - S05 · Shopify Help Center · help.shopify.com · 2 · ОФ · P2 · статус: активне · доступ: curl напряму · у фіналі: 2 (#13: Agentic + Knowledge Base; Shop/Shop Pay умови)
 - S06 · Shopify Blog (trend reports, trending products) · shopify.com/blog · 2/10 · ОФ/ІНЖ · P2 · статус: активне · доступ: curl напряму · у фіналі: 0
 - S07 · Shopify Engineering · shopify.engineering · 2 · ОФ · P3 · статус: активне · доступ: не перевірено · у фіналі: 0
-- S08 · Shopify IR + SEC · investors.shopify.com · 2 · ОФ · P1 у звітні тижні · статус: активне · доступ: через пошук (сайт блокує ботів) · у фіналі: 1 (#13: Shopify Q3 + AI ×3,3)
+- S08 · Shopify IR + SEC · investors.shopify.com · 2 · ОФ · P1 у звітні тижні · статус: активне · доступ: curl напряму, shopify.com/investors (перевірено 12.11.2026) · у фіналі: 1 (#13: Shopify Q3 + AI ×3,3)
 - S09 · Shopify Magic/Sidekick · shopify.com/magic · 9 · ОФ · P3 · статус: активне · доступ: не перевірено · у фіналі: 0
 
 ## Shopify — аналітики (вторинне, лише як підказка)
@@ -105,8 +105,8 @@
 - R15 · ShipperHQ, Portless, Iscompliant, Gerlach · — · 1 · ІНЖ (вендор) · P3 · статус: активне · доступ: не перевірено · у фіналі: 0
 
 ## Україна
-- U01 · Укрпошта (новини, e-export) · ukrposhta.ua · 1 · ОФ · P1 · статус: активне · доступ: не перевірено · у фіналі: 0
-- U02 · Нова Пошта Global / NP Shopping · — · 1 · ОФ · P2 · статус: активне · доступ: не перевірено · у фіналі: 0
+- U01 · Укрпошта (новини, e-export) · ukrposhta.ua · 1 · ОФ · P1 · статус: активне · доступ: через пошук (сайт і e-export блокують ботів, 403; перевірено 12.11.2026) · у фіналі: 0
+- U02 · Нова Пошта Global / NP Shopping · novaposhta.ua, novaposhtaglobal.ua · 1 · ОФ · P2 · статус: активне · доступ: curl напряму (перевірено 12.11.2026) · у фіналі: 0
 - U03 · Meest · meest.com · 1 · ОФ · P2 · статус: активне · доступ: не перевірено · у фіналі: 0
 - U04 · SkladUSA · — · 1 · ОФ/вендор · P2 · статус: активне · доступ: не перевірено · у фіналі: 0
 - U05 · Western Bid · westernbid.com · 1 · ІНЖ/вендор · P2 · статус: активне · доступ: не перевірено · у фіналі: 0
@@ -239,11 +239,23 @@
 - P37 · X API (pay-per-use) · docs.x.com · верт. 10 · ОФ · P3 · статус: ручний перегляд · доступ: платно, поки без акаунтів для стеження · у фіналі: 0
 - P38 · Instagram, TikTok (акаунти блогерів) · — · верт. 10 · — · P3 · статус: ручний перегляд · доступ: лише вручну · у фіналі: 0
 
-Розбіжності з наявними рядками (не змінював, чекає «так» Славіка):
-- E03 Etsy IR: записано «блокує ботів» — 12.11 головна і RSS відкриваються (200).
-- S08 Shopify IR: записано «блокує ботів» — 12.11 відкривається (200).
-- S04 Shopify Developer Changelog: «не перевірено» — RSS працює.
-- U01 Укрпошта: «не перевірено» — 403 (e-export і тарифи).
-- U02 Нова Пошта: «не перевірено» — сайти працюють (див. P25).
-- G01, A01: «через пошук» / «не перевірено» — RSS працюють.
+Розбіжності з наявними рядками:
+- E03, S08, S04, U01, U02 — виправлено 12.11.2026 («так» Славіка).
+- G01, A01: «через пошук» / «не перевірено» — RSS працюють (див. P16; A01 не змінено, на рішення).
 - V02 Etsy Open API: потрібен саме Personal App (Seller App обмежений своїм магазином); ключ — keystring:shared_secret.
+
+## Вертикаль 10 — YouTube-канали (рішення Славіка 12.11.2026; доступ: RSS youtube.com/feeds/videos.xml?channel_id=…, перевірено 12.11.2026, усі 200 і по 15 відео)
+Зміст відео — після Gemini API key (P24). Авторитетність бот не перевіряв — канали обрав Славік.
+- Y01 · Alex Hormozi · youtube.com/@AlexHormozi · channel_id UCUyDOdBWhC1MCxEjC46d-zw · верт. 10 (бізнес) · P3 · статус: на випробуванні · доступ: RSS · у фіналі: 0
+- Y02 · The Futur · youtube.com/@TheFutur · channel_id UC-b3c7kxa5vU-bnmaROgvog · верт. 10 (бренд, ціни) · P3 · статус: на випробуванні · доступ: RSS · у фіналі: 0
+- Y03 · The Diary Of A CEO · youtube.com/@TheDiaryOfACEO · channel_id UCGq-a57w-aPwyi3pW7XLiHw · верт. 10 (бізнес) · P3 · статус: на випробуванні · доступ: RSS · у фіналі: 0
+- Y04 · Seth Godin (блог) · seths.blog/feed · верт. 10 (маркетинг) · P3 · статус: на випробуванні · доступ: RSS · у фіналі: 0
+- Y05 · Etsy Success · youtube.com/@EtsySuccess · channel_id UCO9e0tqE1Zh-iHtofu08pxA · верт. 10/9 (Etsy, офіційний) · P2 · статус: на випробуванні · доступ: RSS · у фіналі: 0
+- Y06 · Dylan Jahraus · youtube.com/@dylanjahraus · channel_id UCeO8Gmc2B-3G2fgcFnRR4Xw · верт. 10 (Etsy) · P2 · статус: на випробуванні · доступ: RSS · у фіналі: 0
+- Y07 · Matt Diggity · youtube.com/@MattDiggity · channel_id UCP5A5lVxaT7cO_LehpxjTZg · верт. 10 (SEO) · P3 · статус: на випробуванні · доступ: RSS (останнє відео 17.08.2026) · у фіналі: 0
+- Y08 · Mark Tilbury · youtube.com/@marktilbury · channel_id UCxgAuX3XZROujMmGphN_scA · верт. 10 (бізнес, AI) · P3 · статус: на випробуванні · доступ: RSS · у фіналі: 0
+- Y09 · Shopify · youtube.com/@shopify · channel_id UCIv38OrggTu3vNkCAo96-CQ · верт. 10/9 (Shopify, офіційний) · P2 · статус: на випробуванні · доступ: RSS · у фіналі: 0
+- Y10 · Learn With Shopify · youtube.com/@learnwithshopify · channel_id UC7geKfz2-IH0rsgRBtHTm0g · верт. 10/9 (Shopify, офіційний) · P2 · статус: на випробуванні · доступ: RSS · у фіналі: 0
+- Y11 · Davie Fogarty · youtube.com/@DavieFogarty · channel_id UC-JHxwWL4-WoqyQIYsBvTbA · верт. 10 (DTC, медіабаїнг) · P3 · статус: на випробуванні · доступ: RSS (останнє відео 29.09.2026) · у фіналі: 0
+- Y12 · Kate Hayes · youtube.com/@KateHayes · channel_id UCfXzRcRPMHw_AF7EdRtyiJQ · верт. 10 · P3 · статус: на випробуванні — пробний канал (Славік: «на випробуванні»), рахувати окремо · доступ: RSS · у фіналі: 0
+Пов'язані рядки: EA14 Dylan Jahraus і E11 YouTube Etsy лишаються як є; Y06 і Y05 — їхній канал-доступ.
